@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn src/server.ts",
+    "build": "tsc -p .",
+    "serve": "node dist/server.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
